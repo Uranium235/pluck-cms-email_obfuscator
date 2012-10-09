@@ -1,0 +1,34 @@
+e-mail obfuscator
+
+This project a module for pluck (http://www.pluck-cms.org/). It
+obfuscates links to e-mail addresses within the source code of the
+content.
+
+It features
+ - obfuscation of the href attribute and the text within the link
+ - obfuscation is done with randomly generated url- and html entitiy
+   encoded characters instead of plain text.
+ - googlebot is instructed to ignore the link and text
+
+It recognizes simple links in the form of:
+<a href="mailto:me@site.com">me@site.com</a>
+In particular, there cannot be any html elements within the <a> element.
+
+Installation
+
+If you received this module as a .tar.gz archive, you should use pluck's
+module manager to install the module.
+
+If you want to create a .tar.gz installation file for pluck from this
+source, all files and folders must be inside a directory called
+"email_obfuscator". The file should be called "email_obfuscator.tar.gz".
+
+Otherwise all files and folders must be placed inside the directory
+"data/modules/email_obfuscator" within you pluck installation.
+
+
+Author: Paul Voegler (http://www.voegler.eu/)
+Version 1.0 (October 2012)
+(c) Copyright 2012 Paul Voegler
+License GPL Version 3, 29 June 2007
+See docs/COPYING for the complete license.
