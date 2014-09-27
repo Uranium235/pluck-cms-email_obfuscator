@@ -12,9 +12,6 @@
  * See docs/COPYING for the complete license.
  */
 
-//Name of the language.
-$language = 'English';
-
 //----------------
 //Translation data.
 $lang['email_obfuscator']['module_name']  = 'Obfuscate e-mail address';
